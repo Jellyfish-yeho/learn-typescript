@@ -1,4 +1,11 @@
-// ES20115(ES6)
+// ES2015(ES6)
+
+function Person (name, age){
+    this.name = name;
+    this.age = age;
+}
+var onew = new Person('온유', 30);
+
 
 class Person{
     //class logic
